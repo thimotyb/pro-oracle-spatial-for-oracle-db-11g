@@ -1,0 +1,19 @@
+CREATE USER spatial_student
+IDENTIFIED BY <PASSWORD>;
+
+ALTER USER spatial_student
+DEFAULT TABLESPACE data;
+
+ALTER USER spatial_student
+QUOTA unlimited ON data;
+
+GRANT CONNECT,
+      CREATE SESSION,
+      CREATE TABLE,
+      CREATE VIEW,
+      CREATE SEQUENCE,
+      CREATE PROCEDURE,
+      CREATE SYNONYM,
+      CREATE TYPE,
+      CREATE TRIGGER
+TO  spatial_student;
