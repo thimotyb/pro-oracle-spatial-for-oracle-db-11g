@@ -1,0 +1,1 @@
+java -cp ojdbc8-19.3.jar:sdoapi-19.2-190126.jar:sdoutl-19.2-190126.jar oracle.spatial.util.SampleShapefileToJGeomFeature -h localhost -p 49154 -s ORCLCDB -u spatial -d *******2021 -t test-import -f /home/opc/pro-oracle-spatial-for-oracle-db-11g/sdoutl/Limiti01012018_g/Reg01012018_g/Reg01012018_g_WGS84
