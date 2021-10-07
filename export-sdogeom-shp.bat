@@ -1,1 +1,1 @@
-C:\Users\thimo\Dropbox\corsi\spatial\instantclient-sqlplus-windows.x64-19.12.0.0.0dbru\instantclient_19_12>c:\osgeo4w\bin\ogr2ogr -f "ESRI Shapefile" us_states.shp OCI:"spatial/CuoaCuoa2021@(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 152.70.180.64)(PORT = 49154)))(CONNECT_DATA = (SID =ORCLCDB))):SPATIAL.US_STATES"
+c:\osgeo4w\bin\ogr2ogr -f "ESRI Shapefile" us_states.shp OCI:"spatial/*****2021@(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 152.70.180.64)(PORT = 49154)))(CONNECT_DATA = (SID =ORCLCDB))):SPATIAL.US_STATES"
