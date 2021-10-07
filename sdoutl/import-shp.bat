@@ -1,0 +1,1 @@
+java -cp ojdbc8-19.3.jar;sdoapi-19.2-190126.jar;sdoutl-19.2-190126.jar oracle.spatial.util.SampleShapefileToJGeomFeature -h localhost -p 49154 -s ORCLCDB -u spatial -d ******2021 -t test-import-2 -f C:/Users/thimo/Dropbox/corsi/spatial/ISTAT-Regioni-Italia-Shape-Limiti01012018_g/Limiti01012018_g/ProvCM01012018_g/ProvCM01012018_g_WGS84
